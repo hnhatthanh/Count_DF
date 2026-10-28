@@ -1,0 +1,16 @@
+add a new prompt at the start of the program, asking for user input:
+[1] Count number of interfaces
+[2] Count number FC
+if the user inputs 1, execute the current function normally.
+if the user inputs 2, execute the below function:
+step 0: ask for an input excel.
+step 1: start in the 'Mapping' sheet, filter out 'No change' status in column A.
+step 2: in column AE, filter ADD Mapping type for only 'complex' if available.
+step 3: count the number of all unique values under AN3, excluding 'None'.
+step 4: repeat step 2 and 3 for 'factor/offset' and 'simple' (combined).
+step 5: display the numbers directly on the screen in the below format
+Complex FC: *number from step 3*
+Simple FC: *number from step 4*
+step 5: prompt the user and ask if they want to export a report 'Export report? (y/n)'.
+step 6: if the user inputs 'y', export an excel file, listing all the unique values found in step 3 and 4 in a table.
+if the user inputs 'n' or press Enter, exit the program.

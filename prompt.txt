@@ -1,0 +1,14 @@
+i want to write a small program in python to automate the below process:
+step 1: open the excel file swsapsa_dataflow_ep6ltc_S400C_r4_df1.xls.
+step 2: go to the sheet 'Mapping'.
+step 3: press the filter button on A3 and deselect 'No change'.
+step 4: press the filter button on CL3 and select only the first value.
+step 5: press the filter button on A3 again and select only the value 'Add' (if available).
+step 6: copy all the filtered values below B3 in column B and paste them into a new sheet (to avoid modifying the content of the base sheet).
+step 6: remove all duplicates from that list.
+step 7: count the number of the remaining values and take note.
+step 8: repeat step 5 to 7 for the values 'Change', 'Remove' (if available) and store the numbers seperately.
+step 9: repeat step 4 to 8 for the second value and so on.
+step 10: put all the stored numbers into an excel report.
+the file S400C_r4_df1_COUNTED_20261023_060045.xlsx is the output of the above process when using swsapsa_dataflow_ep6ltc_S400C_r4_df1.xls as input.
+the program should ask me to provide the input excel.
